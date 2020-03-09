@@ -1,4 +1,4 @@
-module github.com/gphotosuploader/googlemirror
+module github.com/lived-tw/googlemirror
 
 go 1.13
 

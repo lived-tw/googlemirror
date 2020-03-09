@@ -1618,6 +1618,8 @@ func (s *SharedAlbumOptions) MarshalJSON() ([]byte, error) {
 // SimpleMediaItem: A simple media item to be created in Google Photos
 // via an upload token.
 type SimpleMediaItem struct {
+	// 20200309 - added by lived-tw
+	FileName string `json:"fileName,omitempty"`
 	// UploadToken: Token identifying the media bytes which have been
 	// uploaded to Google.
 	UploadToken string `json:"uploadToken,omitempty"`
